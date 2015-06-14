@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+    <comment>menu</comment>
+  </data>
+  <data name="AboutContentText1" xml:space="preserve">
+    <value>&lt;p&gt;
+                    This did not seem to encourage the witness at all: he kept shifting  from one foot to the other, looking uneasily at the Queen, and in  his confusion he bit a large piece out of his teacup instead of the  bread-and-butter.
+                &lt;/p&gt;
+
+                &lt;p&gt;
+                    Just at this moment Alice felt a very curious sensation, which puzzled  her a good deal until she made out what it was: she was beginning to  grow larger again, and she thought at first she would get up and leave  the court; but on second thoughts she decided to remain where she was as  long as there was room for her.
+                &lt;/p&gt;</value>
+    <comment>about</comment>
+  </data>
+  <data name="AboutContentText2" xml:space="preserve">
+    <value>&lt;p&gt; The Hatter's remark seemed to have no sort of meaning in it, and yet it was certainly English. 'I don't quite understand you,' she said, as politely as she could. 'The Dormouse is asleep again,' said the Hatter, and he poured a little hot tea upon its nose. &lt;/p&gt;
+                &lt;h3&gt;I don't quite understand you&lt;/h3&gt;
+                &lt;p&gt; The Dormouse shook its head impatiently, and said, without opening its eyes, 'Of course, of course; just what I was going to remark myself.' 'Have you guessed the riddle yet?' the Hatter said, turning to Alice again. &lt;/p&gt;</value>
+    <comment>about</comment>
+  </data>
+  <data name="AboutContentTitle1" xml:space="preserve">
+    <value>Build your website, now!</value>
+    <comment>about</comment>
+  </data>
+  <data name="AboutContentTitle2" xml:space="preserve">
+    <value>Ashley website template</value>
+    <comment>about</comment>
+  </data>
+  <data name="AboutSubTitle" xml:space="preserve">
+    <value>Kristina Kayryakova ROCKS!</value>
+    <comment>about</comment>
+  </data>
+  <data name="AboutTitle" xml:space="preserve">
+    <value>About us</value>
+    <comment>about</comment>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+    <comment>menu</comment>
+  </data>
+  <data name="ContactUsTitle" xml:space="preserve">
+    <value>Contact us</value>
+    <comment>contact</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+    <comment>menu</comment>
+  </data>
+  <data name="HomeSubTitle1" xml:space="preserve">
+    <value>Subtitle1</value>
+    <comment>home</comment>
+  </data>
+  <data name="HomeSubTitle2" xml:space="preserve">
+    <value>Subtitle2</value>
+    <comment>home</comment>
+  </data>
+  <data name="HomeSubTitle3" xml:space="preserve">
+    <value>Subtitle3</value>
+    <comment>home</comment>
+  </data>
+  <data name="HomeTitle1" xml:space="preserve">
+    <value>High quality translations</value>
+    <comment>home</comment>
+  </data>
+  <data name="HomeTitle2" xml:space="preserve">
+    <value>Personal commitment</value>
+    <comment>home</comment>
+  </data>
+  <data name="HomeTitle3" xml:space="preserve">
+    <value>Simultaneous interpretation</value>
+    <comment>home</comment>
+  </data>
+  <data name="OurWorkAll" xml:space="preserve">
+    <value>All</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="OurWorkCompanies" xml:space="preserve">
+    <value>Companies</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="OurWorkGoverment" xml:space="preserve">
+    <value>Goverment</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="OurWorkMagazines" xml:space="preserve">
+    <value>Magazines</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="OurWorkSubTitle" xml:space="preserve">
+    <value>Latest cool projects we've been working on</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="OurWorkTitle" xml:space="preserve">
+    <value>Our work</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="PricesButtonText" xml:space="preserve">
+    <value>Check prices</value>
+    <comment>home</comment>
+  </data>
+  <data name="PricesTitle" xml:space="preserve">
+    <value>Our plans</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Services</value>
+    <comment>menu</comment>
+  </data>
+  <data name="ServicesPanel1Content" xml:space="preserve">
+    <value>Elegant layouts that help you organize your content in the best way</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel1Title" xml:space="preserve">
+    <value>Written translations</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel2Content" xml:space="preserve">
+    <value>Built with modern technologies like HTML5 and CSS3, SEO optimised</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel2Title" xml:space="preserve">
+    <value>Specialized translation</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel3Content" xml:space="preserve">
+    <value>Compatible with various desktop, tablet, and mobile devices.</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel3Title" xml:space="preserve">
+    <value>Simultaneous and consecutive interpretation</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel4Content" xml:space="preserve">
+    <value>Clear code and documentation, base on Bootstrap 3</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesPanel4Title" xml:space="preserve">
+    <value>Legalization</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesSubTitle" xml:space="preserve">
+    <value>We are doing a couple of things you might be interested in</value>
+    <comment>services</comment>
+  </data>
+  <data name="ServicesTitle" xml:space="preserve">
+    <value>Our services</value>
+    <comment>services</comment>
+  </data>
+  <data name="UnderBannerSubTitle" xml:space="preserve">
+    <value>Because the cheapest price is not the best price.</value>
+    <comment>home</comment>
+  </data>
+  <data name="UnderBannerTitle" xml:space="preserve">
+    <value>Premium language services on competitive prices.</value>
+    <comment>home</comment>
+  </data>
+  <data name="UnderOurWorkText" xml:space="preserve">
+    <value>Keep in touch with us</value>
+    <comment>ourwork</comment>
+  </data>
+  <data name="UnderPricesTitle" xml:space="preserve">
+    <value>Mobile first, truly responsive,&lt;br /&gt; based on bootstrap 3</value>
+    <comment>prices</comment>
+  </data>
+  <data name="UnderServicesBannerText" xml:space="preserve">
+    <value>Being a famous designer&lt;br /&gt;is like being a famous dentist&lt;br /&gt;&lt;small&gt;NOREEN MORIOKA&lt;/small&gt;</value>
+    <comment>services</comment>
+  </data>
+  <data name="Works" xml:space="preserve">
+    <value>Works</value>
+    <comment>menu</comment>
+  </data>
+</root>

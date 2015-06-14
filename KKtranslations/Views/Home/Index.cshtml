@@ -1,0 +1,670 @@
+﻿@using Resources
+<!-- content -->
+<section id="home" data-stellar-background-ratio="0.5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-sm-6">
+                <div class="flexslider" id="flexHome">
+                    <ul class="slides">
+                        <li>
+                            <h1>@Resource.HomeTitle1</h1>
+                            <h2>@Resource.HomeSubTitle1</h2>
+                        </li>
+                        <li>
+                            <h1>@Resource.HomeTitle2</h1>
+                            <h2>@Resource.HomeSubTitle2</h2>
+                        </li>
+                        <li>
+                            <h1>@Resource.HomeTitle3</h1>
+                            <h2>@Resource.HomeSubTitle3</h2>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 hidden-xs">
+                <img src="images/theme-pics/home-girl.png" alt="Ashley, Bootstrap website template" class="img-responsive" />
+            </div>
+        </div>
+    </div>
+</section>
+<!-- call to action -->
+<section class="color4 slice">
+    <div class="ctaBox ctaBoxFullwidth">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <h1>
+                        <strong>@Resource.UnderBannerTitle</strong><br />
+                        @Resource.UnderBannerSubTitle
+                    </h1>
+                </div>
+                <div class="col-md-4">
+                    <a class="btn btn-lg scrollLink" title="" href="#pricing">
+                        <i class="icon-basket"></i> @Resource.PricesButtonText
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- call to action -->
+<!-- news
+
+<section class="slice" id="news">
+    <div class="container imgHover">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Breaking news</h1>
+                <h2 class="subTitle">Here, there and everywhere... what we've been doing</h2>
+            </div>
+
+            <article class="col-sm-4" data-nekoanim="fadeInLeftBig" data-nekodelay="100">
+
+                <section class="imgWrapper">
+                    <img src="images/news/news1.jpg" class="img-responsive" alt="Ashleye template image news" />
+                </section>
+
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+
+                        <a href="images/news/news1.jpg" class="image-link" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>New hair cut today</h3>
+                    <h4 class="date">September 12</h4>
+                    <p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
+                    <a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
+                </section>
+
+            </article>
+
+
+            <article class="col-sm-4" data-nekoanim="fadeInUp" data-nekodelay="200">
+                <section class="imgWrapper">
+                    <img src="images/news/news2.jpg" class="img-responsive" alt="snowflake template image news" />
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="images/news/news2.jpg" class="image-link" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>We are a family</h3>
+                    <h4 class="date">November 24</h4>
+                    <p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
+                    <a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini "></i>read more</a>
+                </section>
+            </article>
+
+
+            <article class="col-sm-4" data-nekoanim="fadeInRightBig" data-nekodelay="300">
+                <section class="imgWrapper">
+                    <img src="images/news/news3.jpg" class="img-responsive" alt="snowflake template image news" />
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="images/news/news3.jpg" class="image-link" title="Zoom"><i class="icon-search iconRounded iconBig"></i><span>zoom</span></a>
+                    </div>
+                </div>
+                <section class="newsText color4">
+                    <h3>Call me if you can</h3>
+                    <h4 class="date">November 24</h4>
+                    <p>The Duchess took her choice, and was gone in a moment. 'Let's go on with the game,' the Queen said to Alice; and Alice was  too much frightened to say a word, but slowly followed her back to the  croquet-ground.</p>
+                    <a href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207" class="btn btn-sm"><i class="icon-right-open-mini"></i>read more</a>
+                </section>
+            </article>
+
+
+        </div>
+    </div>
+</section>
+<!-- news -->
+<!-- services -->
+<section class="slice color1" id="services" data-nekoanim="fadeInUp" data-nekodelay="100">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>@Resource.ServicesTitle</h1>
+                <h2 class="subTitle">@Resource.ServicesSubTitle</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row boxFeature" data-nekoanim="fadeInUp" data-nekodelay="100">
+                    <div class="col-xs-3">
+                        <i class="icon-edit iconBig"></i>
+                    </div>
+                    <div class="col-xs-9">
+                        <h2>@Resource.ServicesPanel1Title</h2>
+                        <p>@Resource.ServicesPanel1Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row boxFeature" data-nekoanim="fadeInUp" data-nekodelay="200">
+                    <div class="col-xs-3">
+                        <i class="icon-briefcase  iconBig"></i>
+                    </div>
+                    <div class="col-xs-9">
+                        <h2>@Resource.ServicesPanel2Title</h2>
+                        <p>@Resource.ServicesPanel2Content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="row boxFeature" data-nekoanim="fadeInUp" data-nekodelay="300">
+                    <div class="col-xs-3">
+                        <i class="icon-volume-high iconBig"></i>
+                    </div>
+                    <div class="col-xs-9">
+                        <h2>@Resource.ServicesPanel3Title</h2>
+                        <p>@Resource.ServicesPanel3Content</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="row boxFeature" data-nekoanim="fadeInUp" data-nekodelay="400">
+                    <div class="col-xs-3">
+                        <i class="icon-doc iconBig"></i>
+                    </div>
+                    <div class="col-xs-9">
+                        <h2>@Resource.ServicesPanel4Title</h2>
+                        <p>@Resource.ServicesPanel4Content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- services -->
+
+
+<div id="paralaxSlice1" data-stellar-background-ratio="0.5">
+    <div class="maskParent">
+        <div class="paralaxMask"></div>
+        <div class="paralaxText container">
+            <i class="icon-megaphone "></i>
+            <blockquote class="bigTitle">Being a famous designer<br />is like being a famous dentist<br /><small>NOREEN MORIOKA</small></blockquote>
+        </div>
+    </div>
+</div>
+
+<section class="slice" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>@Resource.AboutTitle</h1>
+                <h2 class="subTitle">@Resource.AboutSubTitle</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-4" data-nekoanim="fadeIn" data-nekodelay="300">
+                <img src="images/theme-pics/services.png" alt="services" class="img-responsive">
+            </div>
+            <div class="col-sm-4" data-nekoanim="fadeInRightBig" data-nekodelay="200">
+                <h2>@Resource.AboutContentTitle1</h2>
+                @Resource.AboutContentText1
+            </div>
+
+            <div class="col-sm-4" data-nekoanim="fadeInRightBig" data-nekodelay="400">
+                <h2>@Resource.AboutContentTitle2</h2>
+                @Resource.AboutContentText2
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="pricing slice color1" id="pricing">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1 class="noSubtitle">@Resource.PricesTitle</h1>
+            </div>
+        </div>
+        @*<div class="row">
+                <div class="col-xs-12">
+                    <div class="alert alert-info alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                        <strong>Heads up!</strong> This template comes with all the features you need. <a href="features.html" class="alert-link portfolioSheet">check them here</a>
+                    </div>
+                </div>
+            </div>*@
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="100">
+                    <h2>Free</h2>
+                    <h3>0$<span>per month</span></h3>
+                    <ul>
+                        <li>This is what you get For free</li>
+                        <li>Not bad, but could be better</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                    <p class="sign">
+                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
+                            Sign up
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="400">
+                    <h2>Silver</h2>
+                    <h3>10$<span>per month</span></h3>
+                    <ul>
+                        <li>This is a little better</li>
+                        <li>Though</li>
+                        <li>Not the best plan for you!</li>
+                        <li>-</li>
+                        <li>-</li>
+                        <li>-</li>
+                    </ul>
+                    <p class="sign">
+                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
+                            Sign up
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingBloc focusPlan" data-nekoanim="fadeInUp" data-nekodelay="300">
+                    <h2>Gold</h2>
+                    <h3>25$<span>per month</span></h3>
+                    <ul>
+                        <li>Honestly, go Premium</li>
+                        <li>We have a lot</li>
+                        <li>of cool features for you!</li>
+                        <li>Really, you will love what you will get</li>
+                        <li>Come on!!</li>
+                        <li>Please!!!</li>
+                    </ul>
+                    <p class="sign">
+                        <a class="btn btn-large" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
+                            Sign up
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="200">
+                    <h2>Platinium</h2>
+                    <h3>40$<span>per month</span></h3>
+                    <ul>
+                        <li>This one is super good</li>
+                        <li>Super awesome</li>
+                        <li>Just the right plan for you</li>
+                        <li>If you are</li>
+                        <li>A super pro!</li>
+                        <li>No kidding</li>
+                    </ul>
+                    <p class="sign">
+                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
+                            Sign up
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="paralaxSlice2" data-stellar-background-ratio="0.5">
+    <div class="maskParent">
+        <div class="paralaxMask"></div>
+        <div class="paralaxText container">
+            <i class="icon-mobile iconBig"></i><i class="icon-tablet iconBig"></i><i class="icon-laptop iconBig"></i><i class="icon-desktop iconBig"></i>
+            <blockquote class="bigTitle">@Resource.UnderPricesTitle</blockquote>
+        </div>
+    </div>
+</div>
+
+<section class="slice" id="works" data-nekoanim="fadeInUp" data-nekodelay="100">
+    <div class="container clearfix">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>@Resource.OurWorkTitle</h1>
+                <h2 class="subTitle">@Resource.OurWorkSubTitle</h2>
+            </div>
+            <nav id="filter" class="col-md-12 text-center">
+                <ul>
+                    <li><a href="" class="current btn btn-sm" data-filter="*">@Resource.OurWorkAll</a></li>
+                    <li><a href="" class="btn btn-sm" data-filter=".magazines">@Resource.OurWorkMagazines</a></li>
+                    <li><a href="" class="btn btn-sm" data-filter=".goverment">@Resource.OurWorkGoverment</a></li>
+                    <li><a href="" class="btn btn-sm" data-filter=".companies">@Resource.OurWorkCompanies</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="portfolio-items  isotopeWrapper clearfix imgHover row" id="3">
+            <article class="col-sm-3 isotopeItem magazines">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem magazines">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem goverment">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem goverment">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem goverment">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem companies">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="col-sm-3 isotopeItem companies">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <article class="col-sm-3 isotopeItem companies">
+                <section class="imgWrapper">
+                    <img alt="" src="images/portfolio/vign6.jpg" class="img-responsive">
+                </section>
+                <div class="mediaHover">
+                    <div class="mask"></div>
+                    <div class="iconLinks">
+                        <a href="portfolio-project-fullwidth-image.html" title="link" class="sizer portfolioSheet">
+                            <i class="icon-picture iconRounded iconBig"></i>
+                            <span>link</span>
+                        </a>
+                        <a href="images/portfolio/zoom6.jpg" class="image-link" title="Full width image">
+                            <i class="icon-search iconRounded iconBig"></i>
+                            <span>zoom</span>
+                        </a>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<!--<<div id="paralaxSlice3" data-stellar-background-ratio="0.5">
+    <div class="maskParent">
+        <div class="paralaxMask"></div>
+        <div class="paralaxText">
+            <i class="icon-star iconBig"></i>
+            <blockquote class="mt15">Write drunk; edit sober.<br /><small>ERNEST HEMINGWAY </small></blockquote>
+        </div>
+    </div>
+</div>-->
+<!-- team -->
+<!--<section class="slice" id="team">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h1>Meet our team</h1>
+                <h2 class="subTitle">We are beautiful and smart</h2>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <article data-nekoanim="fadeIn" data-nekodelay="100">
+                    <div><img src="images/team/pic1.jpg" alt="" class="img-responsive"></div>
+                    <div class="boxContent text-center color4">
+                        <h3>John DOE</h3>
+                        <p>Executive Director</p>
+                    </div>
+                    <div class="boxContent text-center">
+                        <a href="mailto:your.email@little-neko.com">j.doe@ashley.com</a>
+                        <ul class="socialNetwork mt15">
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Dribble"><i class="icon-dribbble iconRounded"></i></a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <article data-nekoanim="fadeIn" data-nekodelay="300">
+                    <div><img src="images/team/pic2.jpg" alt="" class="img-responsive"></div>
+                    <div class="boxContent text-center color4">
+                        <h3>Johanna Newsom</h3>
+                        <p>Salesman</p>
+                    </div>
+                    <div class="boxContent text-center">
+                        <a href="mailto:your.email@little-neko.com">j.newsom@ashley.com</a>
+                        <ul class="socialNetwork mt15">
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Tumblr"><i class="icon-tumblr-1 iconRounded"></i></a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <article data-nekoanim="fadeIn" data-nekodelay="500">
+                    <div><img src="images/team/pic3.jpg" alt="" class="img-responsive"></div>
+                    <div class="boxContent text-center color4">
+                        <h3>Alexander Doe</h3>
+                        <p>Graphic designer</p>
+                    </div>
+                    <div class="boxContent text-center">
+                        <a href="mailto:your.email@little-neko.com">a.doe@ashley.com</a>
+                        <ul class="socialNetwork mt15">
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i></a></li>
+                            <li><a href="#" class="tips" title="" data-original-title="follow me on YouTube"><i class="icon-youtube iconRounded"></i></a></li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <article data-nekoanim="fadeIn" data-nekodelay="700">
+                    <div><img src="images/team/pic4.jpg" alt="" class="img-responsive"></div>
+                    <div class="boxContent text-center color4">
+                        <h3>Pamela Anderson</h3>
+                        <p>Programmer</p>
+                    </div>
+                    <div class="boxContent text-center">
+                        <a href="mailto:your.email@little-neko.com">p.anderson66@ashley.com</a>
+                        <ul class="socialNetwork mt15">
+                            <li> <a href="#" class="tips" title="" data-original-title="follow me on Facebook"><i class="icon-facebook-1 iconRounded"></i></a> </li>
+                            <li> <a href="#" class="tips" title="" data-original-title="follow me on Twitter"><i class="icon-twitter-bird iconRounded"></i></a> </li>
+                            <li> <a href="#" class="tips" title="" data-original-title="follow me on Google+"><i class="icon-gplus-1 iconRounded"></i></a> </li>
+                            <li> <a href="#" class="tips" title="" data-original-title="follow me on Linkedin"><i class="icon-linkedin-1 iconRounded"></i> </a> </li>
+                            <li> <a href="#" class="tips" title="" data-original-title="follow me on Flickr"><i class="icon-flickr iconRounded"></i> </a> </li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- end team -->
+
+<div id="paralaxSlice4" data-stellar-background-ratio="0.5">
+    <div class="maskParent">
+        <div class="paralaxMask"></div>
+
+        <div class="paralaxText">
+            <blockquote>@Resource.UnderOurWorkText</blockquote>
+
+        </div>
+    </div>
+</div>
+<section class="slice" id="contactSlice" data-nekoanim="fadeInUp" data-nekodelay="100">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-12">
+                <h1 class="noSubtitle">@Resource.ContactUsTitle</h1>
+            </div>
+            <div class="col-sm-12">
+                <div id="mapWrapper" class="mb30"></div>
+            </div>
+            <div class="col-sm-4">
+                <h4>Address:</h4>
+                <address>
+                    Himalaya Company<br />
+                    77 Mass. Ave., E14/E15<br />
+                    Cambridge, MA 02139-4307 USA <br />
+                </address>
+                <h4>Phone:</h4>
+                <address>
+                    615.987.1234<br />
+                </address>
+            </div>
+            <form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address" />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                    </div>
+                    <fieldset class="clearfix securityCheck">
+                        <legend>Security</legend>
+                        <div class="form-group">
+                            <img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" id="verifyImg" />
+                            <input class="required form-control" id="verify" name="verify" type="text">
+                        </div>
+                    </fieldset>
+                </div>
+                <div class="col-md-8 col-md-offset-4">
+                    <div class="result"></div>
+                    <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- content -->
