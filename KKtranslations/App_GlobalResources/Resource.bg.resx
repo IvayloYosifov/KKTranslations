@@ -421,6 +421,36 @@
     <value>Works</value>
     <comment>menu</comment>
   </data>
+  <data name="ContactAddress" xml:space="preserve">
+    <value>Address</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactComments" xml:space="preserve">
+    <value>Comments</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactEmail" xml:space="preserve">
+    <value>Email</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactMessageSent" xml:space="preserve">
+    <value>Your message has been sent. We will contact you as soon as we can. 
+        &lt;br /&gt;
+        Thank you for your interest.</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactName" xml:space="preserve">
+    <value>Name</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactPhone" xml:space="preserve">
+    <value>Phone</value>
+    <comment>contact</comment>
+  </data>
+  <data name="ContactThankYou" xml:space="preserve">
+    <value>Thank you</value>
+    <comment>contact</comment>
+  </data>
   <data name="Price1EU" xml:space="preserve">
     <value />
     <comment>prices</comment>

@@ -65,7 +65,7 @@ namespace KKtranslations.Controllers
             smtp.Port = 587;
             smtp.UseDefaultCredentials = false;
             smtp.Credentials = new System.Net.NetworkCredential
-            ("stefchov@gmail.com", "opalala");// Enter seders User name and password
+            ("stefchov@gmail.com", "");// Enter seders User name and password
             smtp.EnableSsl = true;
             smtp.Send(mail);
 

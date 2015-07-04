@@ -140,6 +140,71 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Address.
+        /// </summary>
+        internal static string ContactAddress {
+            get {
+                return ResourceManager.GetString("ContactAddress", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Comments.
+        /// </summary>
+        internal static string ContactComments {
+            get {
+                return ResourceManager.GetString("ContactComments", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Email.
+        /// </summary>
+        internal static string ContactEmail {
+            get {
+                return ResourceManager.GetString("ContactEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Your message has been sent. We will contact you as soon as we can. 
+        ///        &lt;br /&gt;
+        ///        Thank you for your interest..
+        /// </summary>
+        internal static string ContactMessageSent {
+            get {
+                return ResourceManager.GetString("ContactMessageSent", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Name.
+        /// </summary>
+        internal static string ContactName {
+            get {
+                return ResourceManager.GetString("ContactName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Phone.
+        /// </summary>
+        internal static string ContactPhone {
+            get {
+                return ResourceManager.GetString("ContactPhone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Thank you.
+        /// </summary>
+        internal static string ContactThankYou {
+            get {
+                return ResourceManager.GetString("ContactThankYou", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Contact us.
         /// </summary>
         internal static string ContactUsButtonText {

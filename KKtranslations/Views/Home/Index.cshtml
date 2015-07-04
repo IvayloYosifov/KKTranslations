@@ -621,35 +621,39 @@
                     <div id="mapWrapper" class="mb30"></div>
                 </div>
                 <div class="col-sm-4">
-                    <h4>Address:</h4>
+                    <h4>@(Resource.ContactAddress):</h4>
                     <address>
                         Himalaya Company<br />
                         77 Mass. Ave., E14/E15<br />
                         Cambridge, MA 02139-4307 USA <br />
                     </address>
-                    <h4>Phone:</h4>
+                    <h4>@(Resource.ContactPhone):</h4>
                     <address>
                         615.987.1234<br />
+                    </address>
+                    <h4>@(Resource.ContactEmail):</h4>
+                    <address>
+                        kristina.kayryakova@gmail.com<br />
                     </address>
                 </div>
 
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for="name">Name</label>
+                        <label for="name">@Resource.ContactName</label>
                         <input type="text" class="form-control" value="@Model.Name" name="Name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)" />
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
+                        <label for="email">@Resource.ContactEmail</label>
                         <input type="email" class="form-control" value="@Model.EMail" name="EMail" id="email" placeholder="Enter email" title="Please enter a valid email address" />
                     </div>
                     <div class="form-group">
-                        <label for="phone">Phone</label>
+                        <label for="phone">@Resource.ContactPhone</label>
                         <input name="PhoneNumber" class="form-control required digits" value="@Model.PhoneNumber" type="tel" id="phone" size="30" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for="comments">Comments</label>
+                        <label for="comments">@Resource.ContactComments</label>
                         <textarea name="Comments" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)">@Model.Comments</textarea>
                     </div>
                     @*<fieldset class="clearfix securityCheck">
@@ -673,9 +677,9 @@
 <!-- content -->
 
 <div id="message-modal" class="white-popup-block mfp-hide">
-    <h1>Message sent</h1>
+    <h1>@Resource.ContactThankYou</h1>
     <p>
-        Your message has been sent. We will contact you as soon as we can.
+        @Html.Raw(Resource.ContactMessageSent)
     </p>
 </div>
 
