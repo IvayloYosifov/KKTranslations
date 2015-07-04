@@ -961,7 +961,11 @@ ul.socialNetwork li {display:inline-block; list-style-type: none;}
 /*** pricing table ***/
 .pricingBloc {
 	text-align:center;
-	margin-top:22px;
+	margin-top:22px;    
+    -webkit-transition: margin-top 1s ease;
+    -moz-transition: margin-top 1s ease;
+    -o-transition: margin-top 1s ease;
+    transition: margin-top 1s ease;
 }
 .pricingBloc ul {
 	list-style-type:none;
@@ -983,6 +987,10 @@ ul.socialNetwork li {display:inline-block; list-style-type: none;}
 	display: block;
 	padding: 22px;
 	margin-bottom: 0;
+     -webkit-transition: padding 1s ease;
+    -moz-transition: padding 1s ease;
+    -o-transition: padding 1s ease;
+    transition: padding 1s ease;
 }
 .pricingBloc h3 span {
 	font-size: 14px;
@@ -1073,3 +1081,40 @@ body#comingSoon{padding-top:0; background: #4B4A4A}
 
 /* END MISCELANIOUS
 ================================================== */
+
+
+/* CUSTOM */
+
+.pricingBloc:hover {
+    margin-top:0;
+	border-color:#D1D1D1;
+}
+.pricingBloc:hover h2{
+	background-color:#333;
+	color:#fff!important;
+}
+.pricingBloc:hover h3 {
+	background-color:#C2824F;
+	padding:1.25em;
+	color:#fff!important;
+}
+.white-popup-block {
+  background: #FFF;
+  padding: 20px 30px;
+  text-align: left;
+  max-width: 650px;
+  margin: 40px auto;
+  position: relative;
+}
+/*.pricingBloc.focusPlan {
+	
+}
+.pricingBloc.focusPlan h2{
+	background-color:#333;
+	color:#fff!important;
+}
+.pricingBloc.focusPlan h3 {
+	background-color:#C2824F;
+	padding:1.25em;
+	color:#fff!important;
+}*/

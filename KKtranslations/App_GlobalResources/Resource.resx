@@ -157,6 +157,10 @@
     <value>Contact</value>
     <comment>menu</comment>
   </data>
+  <data name="ContactUsButtonText" xml:space="preserve">
+    <value>Contact us</value>
+    <comment>prices</comment>
+  </data>
   <data name="ContactUsTitle" xml:space="preserve">
     <value>Contact us</value>
     <comment>contact</comment>
@@ -212,6 +216,134 @@
   <data name="OurWorkTitle" xml:space="preserve">
     <value>Our work</value>
     <comment>ourwork</comment>
+  </data>
+  <data name="Price1" xml:space="preserve">
+    <value>0$&lt;span&gt;per month&lt;/span&gt;</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row1" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row2" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row3" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row4" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row5" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1row6" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price1Title" xml:space="preserve">
+    <value>Translation</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2" xml:space="preserve">
+    <value>10$&lt;span&gt;per month&lt;/span&gt;</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row1" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row2" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row3" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row4" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row5" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2row6" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price2Title" xml:space="preserve">
+    <value>Specialized Translation</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3" xml:space="preserve">
+    <value>25$&lt;span&gt;per month&lt;/span&gt;</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row1" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row2" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row3" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row4" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row5" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3row6" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price3Title" xml:space="preserve">
+    <value>Proofreading</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4" xml:space="preserve">
+    <value>40$&lt;span&gt;per month&lt;/span&gt;</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row1" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row2" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row3" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row4" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row5" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4row6" xml:space="preserve">
+    <value>-</value>
+    <comment>prices</comment>
+  </data>
+  <data name="Price4Title" xml:space="preserve">
+    <value>Interpretation</value>
+    <comment>prices</comment>
   </data>
   <data name="PricesButtonText" xml:space="preserve">
     <value>Check prices</value>
@@ -288,5 +420,25 @@
   <data name="Works" xml:space="preserve">
     <value>Works</value>
     <comment>menu</comment>
+  </data>
+  <data name="Price1EU" xml:space="preserve">
+    <value />
+    <comment>prices</comment>
+  </data>
+  <data name="Price2EU" xml:space="preserve">
+    <value />
+    <comment>prices</comment>
+  </data>
+  <data name="Price3EU" xml:space="preserve">
+    <value />
+    <comment>prices</comment>
+  </data>
+  <data name="Price4EU" xml:space="preserve">
+    <value />
+    <comment>prices</comment>
+  </data>
+  <data name="SubmitButton" xml:space="preserve">
+    <value>Submit</value>
+    <comment>contact</comment>
   </data>
 </root>

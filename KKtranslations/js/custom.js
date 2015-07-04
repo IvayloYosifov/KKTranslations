@@ -86,7 +86,36 @@ $(document).ready(function() {
        		});
 
        }
-   	}
+     }
+
+     $('#contactForm').submit(function (event) {
+         console.log($(this).serialize());
+         if ($(this).valid()) {
+             $.ajax({
+                 url: this.action,
+                 type: this.method,
+                 data: $(this).serialize(),
+                 //contentType: 'application/json',
+                 success: function (result) {
+                     $.magnificPopup.open({
+                         items: {
+                             src: '#message-modal', // can be a HTML string, jQuery object, or CSS selector
+                             type: 'inline'
+                         }
+                     });
+                 },
+                 error: function (err) {
+
+                 }
+             });
+         }
+         return false;
+     });
+
+     $('.popup-modal').magnificPopup({
+         type: 'inline',
+         midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
+     });
 
     });
 

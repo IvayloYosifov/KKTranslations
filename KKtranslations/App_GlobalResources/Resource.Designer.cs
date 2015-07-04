@@ -142,6 +142,15 @@ namespace Resources {
         /// <summary>
         ///   Looks up a localized string similar to Contact us.
         /// </summary>
+        internal static string ContactUsButtonText {
+            get {
+                return ResourceManager.GetString("ContactUsButtonText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Contact us.
+        /// </summary>
         internal static string ContactUsTitle {
             get {
                 return ResourceManager.GetString("ContactUsTitle", resourceCulture);
@@ -266,6 +275,330 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 0$&lt;span&gt;per month&lt;/span&gt;.
+        /// </summary>
+        internal static string Price1 {
+            get {
+                return ResourceManager.GetString("Price1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Price1EU {
+            get {
+                return ResourceManager.GetString("Price1EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row1 {
+            get {
+                return ResourceManager.GetString("Price1row1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row2 {
+            get {
+                return ResourceManager.GetString("Price1row2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row3 {
+            get {
+                return ResourceManager.GetString("Price1row3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row4 {
+            get {
+                return ResourceManager.GetString("Price1row4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row5 {
+            get {
+                return ResourceManager.GetString("Price1row5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price1row6 {
+            get {
+                return ResourceManager.GetString("Price1row6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Translation.
+        /// </summary>
+        internal static string Price1Title {
+            get {
+                return ResourceManager.GetString("Price1Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 10$&lt;span&gt;per month&lt;/span&gt;.
+        /// </summary>
+        internal static string Price2 {
+            get {
+                return ResourceManager.GetString("Price2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Price2EU {
+            get {
+                return ResourceManager.GetString("Price2EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row1 {
+            get {
+                return ResourceManager.GetString("Price2row1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row2 {
+            get {
+                return ResourceManager.GetString("Price2row2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row3 {
+            get {
+                return ResourceManager.GetString("Price2row3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row4 {
+            get {
+                return ResourceManager.GetString("Price2row4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row5 {
+            get {
+                return ResourceManager.GetString("Price2row5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price2row6 {
+            get {
+                return ResourceManager.GetString("Price2row6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Specialized Translation.
+        /// </summary>
+        internal static string Price2Title {
+            get {
+                return ResourceManager.GetString("Price2Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 25$&lt;span&gt;per month&lt;/span&gt;.
+        /// </summary>
+        internal static string Price3 {
+            get {
+                return ResourceManager.GetString("Price3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Price3EU {
+            get {
+                return ResourceManager.GetString("Price3EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row1 {
+            get {
+                return ResourceManager.GetString("Price3row1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row2 {
+            get {
+                return ResourceManager.GetString("Price3row2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row3 {
+            get {
+                return ResourceManager.GetString("Price3row3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row4 {
+            get {
+                return ResourceManager.GetString("Price3row4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row5 {
+            get {
+                return ResourceManager.GetString("Price3row5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price3row6 {
+            get {
+                return ResourceManager.GetString("Price3row6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Proofreading.
+        /// </summary>
+        internal static string Price3Title {
+            get {
+                return ResourceManager.GetString("Price3Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 40$&lt;span&gt;per month&lt;/span&gt;.
+        /// </summary>
+        internal static string Price4 {
+            get {
+                return ResourceManager.GetString("Price4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Price4EU {
+            get {
+                return ResourceManager.GetString("Price4EU", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row1 {
+            get {
+                return ResourceManager.GetString("Price4row1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row2 {
+            get {
+                return ResourceManager.GetString("Price4row2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row3 {
+            get {
+                return ResourceManager.GetString("Price4row3", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row4 {
+            get {
+                return ResourceManager.GetString("Price4row4", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row5 {
+            get {
+                return ResourceManager.GetString("Price4row5", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to -.
+        /// </summary>
+        internal static string Price4row6 {
+            get {
+                return ResourceManager.GetString("Price4row6", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Interpretation.
+        /// </summary>
+        internal static string Price4Title {
+            get {
+                return ResourceManager.GetString("Price4Title", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Check prices.
         /// </summary>
         internal static string PricesButtonText {
@@ -379,6 +712,15 @@ namespace Resources {
         internal static string ServicesTitle {
             get {
                 return ResourceManager.GetString("ServicesTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Submit.
+        /// </summary>
+        internal static string SubmitButton {
+            get {
+                return ResourceManager.GetString("SubmitButton", resourceCulture);
             }
         }
         

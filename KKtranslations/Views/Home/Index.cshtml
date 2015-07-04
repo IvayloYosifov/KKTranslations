@@ -1,4 +1,6 @@
 ﻿@using Resources
+@model KKtranslations.Models.ContactModel
+
 <!-- content -->
 <section id="home" data-stellar-background-ratio="0.5">
     <div class="container">
@@ -239,76 +241,76 @@
         <div class="row">
             <div class="col-md-3 col-sm-6">
                 <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="100">
-                    <h2>Free</h2>
-                    <h3>0$<span>per month</span></h3>
+                    <h2>@Resource.Price1Title</h2>
+                    <h3>@Html.Raw(ViewData["Price1"])</h3>
                     <ul>
-                        <li>This is what you get For free</li>
-                        <li>Not bad, but could be better</li>
-                        <li>-</li>
-                        <li>-</li>
-                        <li>-</li>
-                        <li>-</li>
+                        <li>@Resource.Price1row1</li>
+                        <li>@Resource.Price1row2</li>
+                        <li>@Resource.Price1row3</li>
+                        <li>@Resource.Price1row4</li>
+                        <li>@Resource.Price1row5</li>
+                        <li>@Resource.Price1row6</li>
                     </ul>
                     <p class="sign">
-                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
-                            Sign up
+                        <a class="btn" href="#contactSlice">
+                            @Resource.ContactUsButtonText
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="400">
-                    <h2>Silver</h2>
-                    <h3>10$<span>per month</span></h3>
+                    <h2>@Resource.Price2Title</h2>
+                    <h3>@Html.Raw(ViewData["Price2"])</h3>
                     <ul>
-                        <li>This is a little better</li>
-                        <li>Though</li>
-                        <li>Not the best plan for you!</li>
-                        <li>-</li>
-                        <li>-</li>
-                        <li>-</li>
+                        <li>@Resource.Price2row1</li>
+                        <li>@Resource.Price2row2</li>
+                        <li>@Resource.Price2row3</li>
+                        <li>@Resource.Price2row4</li>
+                        <li>@Resource.Price2row5</li>
+                        <li>@Resource.Price2row6</li>
                     </ul>
                     <p class="sign">
-                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
-                            Sign up
+                        <a class="btn" href="#contactSlice">
+                            @Resource.ContactUsButtonText
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
-                <div class="pricingBloc focusPlan" data-nekoanim="fadeInUp" data-nekodelay="300">
-                    <h2>Gold</h2>
-                    <h3>25$<span>per month</span></h3>
+                <div class="pricingBloc" data-nekoanim="fadeInUp" data-nekodelay="300">
+                    <h2>@Resource.Price3Title</h2>
+                    <h3>@Html.Raw(ViewData["Price3"])</h3>
                     <ul>
-                        <li>Honestly, go Premium</li>
-                        <li>We have a lot</li>
-                        <li>of cool features for you!</li>
-                        <li>Really, you will love what you will get</li>
-                        <li>Come on!!</li>
-                        <li>Please!!!</li>
+                        <li>@Resource.Price3row1</li>
+                        <li>@Resource.Price3row2</li>
+                        <li>@Resource.Price3row3</li>
+                        <li>@Resource.Price3row4</li>
+                        <li>@Resource.Price3row5</li>
+                        <li>@Resource.Price3row6</li>
                     </ul>
                     <p class="sign">
-                        <a class="btn btn-large" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
-                            Sign up
+                        <a class="btn btn-large" href="#contactSlice">
+                            @Resource.ContactUsButtonText
                         </a>
                     </p>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
                 <div class="pricingBloc" data-nekoanim="fadeIn" data-nekodelay="200">
-                    <h2>Platinium</h2>
-                    <h3>40$<span>per month</span></h3>
+                    <h2>@Resource.Price4Title</h2>
+                    <h3>@Html.Raw(ViewData["Price4"])</h3>
                     <ul>
-                        <li>This one is super good</li>
-                        <li>Super awesome</li>
-                        <li>Just the right plan for you</li>
-                        <li>If you are</li>
-                        <li>A super pro!</li>
-                        <li>No kidding</li>
+                        <li>@Resource.Price4row1</li>
+                        <li>@Resource.Price4row2</li>
+                        <li>@Resource.Price4row3</li>
+                        <li>@Resource.Price4row4</li>
+                        <li>@Resource.Price4row5</li>
+                        <li>@Resource.Price4row6</li>
                     </ul>
                     <p class="sign">
-                        <a class="btn" href="https://wrapbootstrap.com/theme/ashley-one-page-parallax-bootstrap-3-WB0R11207">
-                            Sign up
+                        <a class="btn" href="#contactSlice">
+                            @Resource.ContactUsButtonText
                         </a>
                     </p>
                 </div>
@@ -610,61 +612,70 @@
 <section class="slice" id="contactSlice" data-nekoanim="fadeInUp" data-nekodelay="100">
     <div class="container">
         <div class="row">
-
-            <div class="col-sm-12">
-                <h1 class="noSubtitle">@Resource.ContactUsTitle</h1>
-            </div>
-            <div class="col-sm-12">
-                <div id="mapWrapper" class="mb30"></div>
-            </div>
-            <div class="col-sm-4">
-                <h4>Address:</h4>
-                <address>
-                    Himalaya Company<br />
-                    77 Mass. Ave., E14/E15<br />
-                    Cambridge, MA 02139-4307 USA <br />
-                </address>
-                <h4>Phone:</h4>
-                <address>
-                    615.987.1234<br />
-                </address>
-            </div>
-            <form method="post" action="js-plugin/neko-contact-ajax-plugin/php/form-handler.php" id="contactfrm" role="form">
+            @using (Html.BeginForm("Index", "Home", FormMethod.Post, new { @id = "contactForm" }))
+            {
+                <div class="col-sm-12">
+                    <h1 class="noSubtitle">@Resource.ContactUsTitle</h1>
+                </div>
+                <div class="col-sm-12">
+                    <div id="mapWrapper" class="mb30"></div>
+                </div>
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                    <address>
+                        Himalaya Company<br />
+                        77 Mass. Ave., E14/E15<br />
+                        Cambridge, MA 02139-4307 USA <br />
+                    </address>
+                    <h4>Phone:</h4>
+                    <address>
+                        615.987.1234<br />
+                    </address>
+                </div>
 
                 <div class="col-sm-4">
                     <div class="form-group">
                         <label for="name">Name</label>
-                        <input type="text" class="form-control" name="name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)" />
+                        <input type="text" class="form-control" value="@Model.Name" name="Name" id="name" placeholder="Enter name" title="Please enter your name (at least 2 characters)" />
                     </div>
                     <div class="form-group">
                         <label for="email">Email</label>
-                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" title="Please enter a valid email address" />
+                        <input type="email" class="form-control" value="@Model.EMail" name="EMail" id="email" placeholder="Enter email" title="Please enter a valid email address" />
                     </div>
                     <div class="form-group">
                         <label for="phone">Phone</label>
-                        <input name="phone" class="form-control required digits" type="tel" id="phone" size="30" value="" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
+                        <input name="PhoneNumber" class="form-control required digits" value="@Model.PhoneNumber" type="tel" id="phone" size="30" placeholder="Enter email phone" title="Please enter a valid phone number (at least 10 characters)">
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="form-group">
                         <label for="comments">Comments</label>
-                        <textarea name="comment" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)"></textarea>
+                        <textarea name="Comments" class="form-control" id="comments" cols="3" rows="5" placeholder="Enter your message…" title="Please enter your message (at least 10 characters)">@Model.Comments</textarea>
                     </div>
-                    <fieldset class="clearfix securityCheck">
-                        <legend>Security</legend>
-                        <div class="form-group">
-                            <img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" id="verifyImg" />
-                            <input class="required form-control" id="verify" name="verify" type="text">
-                        </div>
-                    </fieldset>
+                    @*<fieldset class="clearfix securityCheck">
+                            <legend>Security</legend>
+                            <div class="form-group">
+                                <img src="js-plugin/neko-contact-ajax-plugin/php/image.php" alt="Image verification" id="verifyImg" />
+                                <input class="required form-control" id="verify" name="verify" type="text">
+                            </div>test-modal
+                        </fieldset>*@
                 </div>
-                <div class="col-md-8 col-md-offset-4">
-                    <div class="result"></div>
-                    <button name="submit" type="submit" class="btn btn-lg" id="submit"> Submit</button>
-                </div>
-            </form>
+            }
+            <div class="col-md-8 col-md-offset-4">
+                <div class="result"></div>
+                <a name="submit" class="btn btn-lg popup-modal" onclick="$('#contactForm').submit(); return false;"> @Resource.SubmitButton</a>
+            </div>
+
         </div>
     </div>
 </section>
 
 <!-- content -->
+
+<div id="message-modal" class="white-popup-block mfp-hide">
+    <h1>Message sent</h1>
+    <p>
+        Your message has been sent. We will contact you as soon as we can.
+    </p>
+</div>
+
